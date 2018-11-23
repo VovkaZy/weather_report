@@ -7,7 +7,6 @@ ver.: 0.9
 Created by v.n.zubarev@gmail.com on 03/11/18
 ```
 require 'net/http'
-require 'uri'
 require 'rexml/document'
 ```
 
@@ -17,10 +16,7 @@ require 'rexml/document'
 2). After this, change the directory to that, wich contain app files.
   `cd dirpath/weather_report/`
 
-3). Use bundler to install dependencies:
-  `bundle install`
-
-4). Run it from terminal (command line): 
+3). Run it from terminal (command line): 
   `ruby weather.rb`
 
-P.S.: If you want to change city, just open app file weather.rb, change a link to your city using website from head and save it.
+P.S.: If you want to change city, just open app file `weather.rb`, change a `uri` link to your city using website from head and save it.
