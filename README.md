@@ -19,4 +19,4 @@ require 'rexml/document'
 3). Run it from terminal (command line): 
   `ruby weather.rb`
 
-P.S.: If you want to change city, just open app file `weather.rb`, change a `uri` link to your city using website from head and save it.
+P.S.: If you want to change city, just open app file `weather.rb`, change a `uri` variable link to your city using website from head and save it.
