@@ -4,7 +4,6 @@
 # Created by v.n.zubarev@gmail.com on 03/11/18
 
 require 'net/http'
-require 'uri'
 require 'rexml/document'
 
 # Hash with cloudiness variations
@@ -34,9 +33,9 @@ clouds = CLOUDINESS[cloud_index]
 puts '|-----------------------------|'
 puts '|            ' + city_name + '             |'
 puts '|-----------------------------|'
-puts '|' + "The temperature: from #{min_temp} to #{max_temp}" + '|'
+puts '|' + "The temperature:from #{min_temp} to #{max_temp}" + '|'
 puts '|-----------------------------|'
 puts '|' + "Wind speed till #{max_wind} m/s" + '        |'
 puts '|-----------------------------|'
-puts '|' + clouds + '                     |'
+puts '|' + clouds + '                        |'
 puts '|-----------------------------|'
