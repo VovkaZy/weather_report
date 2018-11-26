@@ -10,7 +10,7 @@ require 'net/http'
 require 'rexml/document'
 ```
 
-1). First, clone this repo to your laptop or computer using 'terminal (command line)':
+1). First, clone this repo to your laptop or computer using `terminal (command line)`:
   `git clone https://github.com/VovkaZy/weather_report.git`
 
 2). After this, change the directory to that, wich contain app files.
