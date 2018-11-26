@@ -1,6 +1,6 @@
 # Weather report
 
-__Weather report__ is a *console* based app for [showing weather](https://www.meteoservice.ru/content/export) using XML parsing
+__Weather report__ is a *console based* app for [showing weather](https://www.meteoservice.ru/content/export) using XML parsing
 
 ver.: 0.9
  
